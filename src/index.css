@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+/* variable css */
+:root {
+  --header-height: 3.5rem;
+
+  /* colors */
+  --first-color: rgb(34, 31, 31);
+  --second-color: rgb(108, 100, 100);
+
+  /* background */
+  --bg-first: rgb(251, 234, 234);
+  --bg-second: rgb(199, 191, 191);
+
+  /* fonts */
+  --body-font: "Space Grotesk", sans-serif;
+
+  /* font weight */
+  --font-regular: 400;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /* z-index */
+  --z--tooltip: 10;
+  --z-fixed: 100;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+input,
+button {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  background-color: var(--bg-first);
+  color: var(--first-color);
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--first-color);
+  font-weight: var(--font-bold);
+  font-family: var(--body-font);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* reusable css classes */
+.container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 5rem 1rem;
+}
