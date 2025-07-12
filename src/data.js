@@ -3,5 +3,5 @@ export const NavData = [
   { id: 2, body: "about" },
   { id: 1, body: "portfolilo" },
   { id: 1, body: "contact me" },
-  { id: 1, body: "book online" },
+  //   { id: 1, body: "book online" },
 ];
