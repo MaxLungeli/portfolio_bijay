@@ -2,7 +2,7 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <section>
+    <section className="container home">
       <div className="section_body">
         <h1 className="section_title">bijay lungeli</h1>
         <div className="section_paragraphs">
@@ -17,6 +17,7 @@ const Home = () => {
             experience crafting visually stunning and emotionally engaing video
             content
           </p>
+          <button className="btn hero_btn">contact</button>
         </div>
       </div>
     </section>

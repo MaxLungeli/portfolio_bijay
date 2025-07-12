@@ -1,0 +1,27 @@
+.home {
+  min-height: calc(100vh - var(--header-height));
+  background: red;
+  /* max-width: ; */
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.section_body {
+  max-width: fit-content;
+}
+
+.section_title {
+  text-transform: capitalize;
+}
+
+.hero_btn {
+  width: 9.5rem;
+  height: 3rem;
+  text-transform: capitalize;
+  font-weight: var(--font-bold);
+  background: rgb(86, 83, 83);
+  color: rgb(225, 156, 156);
+}
