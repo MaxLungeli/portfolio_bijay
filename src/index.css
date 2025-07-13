@@ -5,12 +5,12 @@
   --header-height: 3.9rem;
 
   /* colors */
-  --first-color: rgb(34, 31, 31);
+  --first-color: #6f6563;
   --second-color: rgb(108, 100, 100);
 
   /* background */
-  --bg-first: rgb(251, 234, 234);
-  --bg-second: rgb(199, 191, 191);
+  --bg-first: #dbd9e6;
+  --bg-second: #dad9e9;
 
   /* fonts */
   --body-font: "Space Grotesk", sans-serif;
@@ -72,8 +72,9 @@ a {
 
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  background: black;
 }
 
 /* reusable css classes */

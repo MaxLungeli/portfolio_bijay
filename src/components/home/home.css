@@ -1,6 +1,6 @@
 .home {
   min-height: calc(100vh - var(--header-height));
-  background: red;
+  /* background: red; */
   /* max-width: ; */
   display: grid;
   place-items: center;

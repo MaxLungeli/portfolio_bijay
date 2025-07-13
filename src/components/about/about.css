@@ -1,0 +1,21 @@
+.about {
+  background: red;
+  min-height: 100vh;
+}
+
+.about_img {
+  display: block;
+  width: 15rem;
+  height: 15rem;
+  background: var(--bg-second);
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img_profile {
+  object-fit: cover;
+  object-position: center;
+}
