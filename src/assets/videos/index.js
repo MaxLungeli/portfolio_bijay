@@ -9,17 +9,28 @@ import dtours from "./dtours.mp4";
 import nepal_tour from "./nepal_tour.mp4";
 import travels from "./travels.mp4";
 
+import aipc from "./pictures/aipc.jpeg";
+import bookpc from "./pictures/bookpc.jpeg";
+import clzpc from "./pictures/clzpc.jpeg";
+import dashainpc from "./pictures/dashainpc.jpeg";
+import dtour2pc from "./pictures/dtour2pc.jpeg";
+import dtour3pc from "./pictures/dtour3pc.jpeg";
+import dtourspc from "./pictures/dtourspc.jpeg";
+import mr_bistpc from "./pictures/mr_bistpc.jpeg";
+import nepal_tourpc from "./pictures/nepal_tourpc.jpeg";
+import travelspc from "./pictures/travelspc.jpeg";
+
 const videosData = [
-  { id: 1, src: mr_beast },
-  { id: 2, src: ai },
-  { id: 3, src: clz },
-  { id: 4, src: book },
-  { id: 5, src: dashain },
-  { id: 6, src: dtour2 },
-  { id: 7, src: dtour3 },
-  { id: 8, src: dtours },
-  { id: 9, src: nepal_tour },
-  { id: 10, src: travels },
+  { id: 1, src: mr_beast, poster: mr_bistpc },
+  { id: 2, src: ai, poster: aipc },
+  { id: 3, src: clz, poster: clzpc },
+  { id: 4, src: book, poster: bookpc },
+  { id: 5, src: dashain, poster: dashainpc },
+  { id: 6, src: dtour2, poster: dtour2pc },
+  { id: 7, src: dtour3, poster: dtour3pc },
+  { id: 8, src: dtours, poster: dtourspc },
+  { id: 9, src: nepal_tour, poster: nepal_tourpc },
+  { id: 10, src: travels, poster: travelspc },
 ];
 
 export default videosData;

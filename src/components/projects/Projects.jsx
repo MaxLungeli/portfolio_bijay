@@ -4,6 +4,7 @@ import Vidoes from "../utility/Vidoes";
 import "./projects.css";
 
 const Projects = () => {
+  console.log(videosData);
   return (
     <section className="projects">
       <div className="project_heading">
@@ -13,7 +14,11 @@ const Projects = () => {
         {videosData.map((val) => {
           return (
             <div className="video_parent" key={val.id}>
-              <Vidoes className="video_data" src={val.src} />
+              <Vidoes
+                className="video_data"
+                src={val.src}
+                poster={val.poster}
+              />
             </div>
           );
         })}
