@@ -1,0 +1,24 @@
+.site-footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+}
+
+.site-footer a {
+  color: #00acee; /* Light blue for links */
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive text sizing */
+@media (max-width: 600px) {
+  .site-footer {
+    font-size: 12px;
+    padding: 15px 5px;
+  }
+}

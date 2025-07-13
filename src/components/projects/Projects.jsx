@@ -4,7 +4,6 @@ import Vidoes from "../utility/Vidoes";
 import "./projects.css";
 
 const Projects = () => {
-  // console.log(videosData);
   return (
     <section className="projects">
       <div className="project_heading">
