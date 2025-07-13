@@ -10,14 +10,14 @@ export const AboutWhat = [
   { id: 1, desc: "YouTube and Long-Form Video Editing" },
   { id: 2, desc: "Instagram, TikTok, and YouTube Shorts" },
   { id: 3, desc: "Wedding and Event Highlights" },
-  { id: 3, desc: "Trailers, Vlog and Travel Videos" },
-  { id: 4, desc: "Motion Graphics and Logo Animation" },
-  { id: 5, desc: "Color Grading and Correction" },
-  { id: 6, desc: "Subtitles, Text Effects and Sound Sync" },
-  { id: 7, desc: "Green Screen / Chroma Editing" },
-  { id: 8, desc: "Corporate Videos and Brand Promos" },
+  { id: 4, desc: "Trailers, Vlog and Travel Videos" },
+  { id: 5, desc: "Motion Graphics and Logo Animation" },
+  { id: 6, desc: "Color Grading and Correction" },
+  { id: 7, desc: "Subtitles, Text Effects and Sound Sync" },
+  { id: 8, desc: "Green Screen / Chroma Editing" },
+  { id: 9, desc: "Corporate Videos and Brand Promos" },
   {
-    id: 9,
+    id: 10,
     desc: "Youtube Videos (Documentary, Explainer, Vlogging, Podcast and Talking Head, How-To / Tutorial, Shorts / Reels, Cinematic Travel / Lifestyle Videos",
   },
 ];
@@ -31,9 +31,9 @@ export const ToolsData = [
 
 export const WorkData = [
   { id: 1, desc: "6+ years of experience" },
-  { id: 1, desc: "Fast Turnaround with Consistent Quality" },
-  { id: 1, desc: "Always Deliver On or Before Deadline" },
-  { id: 1, desc: "Smooth Communication" },
-  { id: 1, desc: "Creative Input & Attention to Detail" },
-  { id: 1, desc: "100% Client Satisfaction" },
+  { id: 2, desc: "Fast Turnaround with Consistent Quality" },
+  { id: 3, desc: "Always Deliver On or Before Deadline" },
+  { id: 4, desc: "Smooth Communication" },
+  { id: 5, desc: "Creative Input & Attention to Detail" },
+  { id: 6, desc: "100% Client Satisfaction" },
 ];

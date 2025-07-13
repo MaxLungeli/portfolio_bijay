@@ -1,0 +1,23 @@
+.projects {
+  min-height: 100vw;
+  background: var(--bg-first);
+}
+
+.vidoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* height: 3rem; */
+  gap: 10px;
+}
+
+.video_parent {
+  width: 500px;
+  height: auto;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid green;
+}
+
+.video_data {
+  width: 100%;
+  height: 100%;
+}
