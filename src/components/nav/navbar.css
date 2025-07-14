@@ -15,9 +15,12 @@
   transition: background-color 0.4s;
   box-shadow: 10px 5px 5px rebeccapurple;
   height: var(--header-height);
+  backdrop-filter: blur(10px);
 }
 
 .header_main {
+  position: relative;
+  top: -20%;
   display: flex;
   justify-content: space-between;
   align-items: center;

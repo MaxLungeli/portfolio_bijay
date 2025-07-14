@@ -1,6 +1,10 @@
 .projects {
   min-height: 100vw;
   background: var(--bg-first);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: centers;
 }
 
 .vidoes {

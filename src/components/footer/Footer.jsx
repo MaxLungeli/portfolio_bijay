@@ -2,7 +2,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="site-footer">
+    <footer className="site-footer container">
       <p>&copy; 2025 Bijay Lungeli</p>
       <p>Video Editor | Graphic Designer</p>
       <p>

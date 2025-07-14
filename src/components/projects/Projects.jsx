@@ -6,7 +6,7 @@ import "./projects.css";
 const Projects = () => {
   console.log(videosData);
   return (
-    <section className="projects">
+    <section className="projects containers">
       <div className="project_heading">
         <h2>Projects</h2>
       </div>
