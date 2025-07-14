@@ -1,3 +1,4 @@
+import { Outlet, Route, Routes } from "react-router-dom";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
@@ -14,6 +15,18 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      {/* <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/footer" element={<Footer />} />
+        <Route path="*" element={<div>404 Not Found</div>} />
+      </Routes> */}
+      {/* // <main>
+      //   <Outlet />
+      // </main>
+      // <Footer /> */}
     </div>
   );
 }

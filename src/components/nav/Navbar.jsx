@@ -1,5 +1,6 @@
 import "./navbar.css";
 import { NavData } from "../../data";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -7,6 +8,9 @@ const Navbar = () => {
       <div className="header_main">
         <div className="title">
           <h2>
+            {/* <Link to="/" className="title_link">
+              Bijay
+            </Link> */}
             <a href="#" className="title_link">
               Bijay
             </a>
@@ -18,7 +22,7 @@ const Navbar = () => {
               {NavData.map((data) => {
                 return (
                   <li className="nav_li" key={data.id}>
-                    <a href="#" className="nav_link">
+                    <a href={data.href} className="nav_link">
                       {data.body}
                     </a>
                   </li>

@@ -1,8 +1,8 @@
 export const NavData = [
-  { id: 1, body: "home" },
-  { id: 2, body: "about" },
-  { id: 3, body: "portfolilo" },
-  { id: 4, body: "contact me" },
+  { id: 1, body: "home", href: "#home" },
+  { id: 2, body: "about", href: "#about" },
+  { id: 3, body: "projects", href: "#projects" },
+  { id: 4, body: "contact me", href: "#contact" },
   //   { id: 1, body: "book online" },
 ];
 

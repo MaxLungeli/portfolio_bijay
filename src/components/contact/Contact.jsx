@@ -3,7 +3,7 @@ import Form from "./Form";
 
 const Contact = () => {
   return (
-    <section className="contact containers">
+    <section className="contact containers" id="contact">
       {/* <h2>Contact Me</h2>/ */}
       <div className="contact_form">
         <Form />

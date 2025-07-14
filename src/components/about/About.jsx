@@ -4,7 +4,7 @@ import { AboutWhat, ToolsData, WorkData } from "../../data";
 
 function About() {
   return (
-    <section className="about container">
+    <section className="about container" id="about">
       <div className="about_all">
         <div className="about_main">
           <h2 className="about_heading">Meet Bijay Lungeli</h2>
