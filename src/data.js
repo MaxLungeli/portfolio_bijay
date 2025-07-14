@@ -30,7 +30,7 @@ export const ToolsData = [
 ];
 
 export const WorkData = [
-  { id: 1, desc: "6+ years of experience" },
+  { id: 1, desc: "5+ years of experience" },
   { id: 2, desc: "Fast Turnaround with Consistent Quality" },
   { id: 3, desc: "Always Deliver On or Before Deadline" },
   { id: 4, desc: "Smooth Communication" },
