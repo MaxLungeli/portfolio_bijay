@@ -17,6 +17,10 @@ const Footer = () => {
         <a href="https://web.whatsapp.com/" target="_blank">
           WhatsApp (+977-9819924701)
         </a>
+        |{" "}
+        <a href="" target="_blank">
+          gmail (bijaylungelimagar@gmail.com)
+        </a>
       </p>
     </footer>
   );
