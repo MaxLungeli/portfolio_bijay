@@ -19,7 +19,7 @@ const Projects = () => {
   const data5 =
     "https://www.facebook.com/61566356101439/videos/761856239711672/";
   return (
-    <section className="projects containers" id="projects">
+    <section className="projects container" id="projects">
       <div className="project_heading">
         <h2>Projects</h2>
       </div>
