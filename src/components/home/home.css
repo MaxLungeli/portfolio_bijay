@@ -15,6 +15,7 @@
 
 .section_title {
   text-transform: capitalize;
+  margin-top: -2px;
 }
 
 .hero_btn {
@@ -29,8 +30,9 @@
 /* img */
 .home_img {
   /* display: block; */
-  width: 15rem;
-  height: 15rem;
+  padding-top: 40px;
+  width: 8rem;
+  height: 8rem;
   background: var(--bg-second);
   border-radius: 50%;
   overflow: hidden;
@@ -38,6 +40,7 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  /* padding-bottom: -10px; */
 }
 
 .img_profile {
@@ -54,6 +57,7 @@
   gap: 0.98rem;
   /* place-items: center; */
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 .home_video {

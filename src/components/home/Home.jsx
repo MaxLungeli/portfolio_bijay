@@ -1,8 +1,12 @@
 import { HomeDataVid } from "../../assets/other/data";
 import Vidoes from "../utility/Vidoes";
 import "./home.css";
+// import ReactPlayer from "react-player";
+import { FacebookProvider, EmbeddedVideo } from "react-facebook";
 
 const Home = () => {
+  const fbUrl1 = `https://www.facebook.com/61566356101439/videos/1016401157147971/?rdid=g2o6biwCaF1y3mNc#`;
+
   return (
     <section className="container home" id="home">
       <div className="section_body">
@@ -33,7 +37,7 @@ const Home = () => {
             </div>
           );
         })}
-        {/* <div className="youtube_vid">
+        <div className="youtube_vid">
           <iframe
             src="https://www.youtube.com/embed/ilEncZbbN20"
             title="सुख र दुःख त लेखेको हुन्छ/ PRABHU RUPESHWOR GAUR DAS"
@@ -43,7 +47,25 @@ const Home = () => {
             allowfullscreen
             className="youtube_frame"
           ></iframe>
-        </div> */}
+        </div>
+        <div className="youtube_vid">
+          <iframe
+            src="https://www.youtube.com/embed/gck53fwf2b8"
+            title="Yantra, Mantra, Tantra | Diptee Acharya | Rupeshwor Gaur Das | RETA WORLD ASK ME"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            className="youtube_frame"
+          ></iframe>
+        </div>
+
+        {/* facebook url */}
+        <div className="youtube_vid">
+          <FacebookProvider appId="YOUR_FACEBOOK_APP_ID">
+            <EmbeddedVideo href={fbUrl1} />
+          </FacebookProvider>
+        </div>
       </div>
     </section>
   );
