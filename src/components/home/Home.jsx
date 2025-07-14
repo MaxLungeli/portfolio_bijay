@@ -41,10 +41,10 @@ const Home = () => {
           <iframe
             src="https://www.youtube.com/embed/ilEncZbbN20"
             title="सुख र दुःख त लेखेको हुन्छ/ PRABHU RUPESHWOR GAUR DAS"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
             className="youtube_frame"
           ></iframe>
         </div>
@@ -52,10 +52,10 @@ const Home = () => {
           <iframe
             src="https://www.youtube.com/embed/gck53fwf2b8"
             title="Yantra, Mantra, Tantra | Diptee Acharya | Rupeshwor Gaur Das | RETA WORLD ASK ME"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
             className="youtube_frame"
           ></iframe>
         </div>

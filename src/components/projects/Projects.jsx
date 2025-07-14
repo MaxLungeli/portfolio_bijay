@@ -28,10 +28,10 @@ const Projects = () => {
           <iframe
             src="https://www.youtube.com/embed/47nIHxiBTtU"
             title="A Dad&#39;s Journey - Struggles of Father | Bhanu Paudel | Samrat Sthapit| Ep 29 - FULL PODCAST​"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
             className="video_data"
           ></iframe>
         </div>
@@ -41,10 +41,10 @@ const Projects = () => {
           <iframe
             src="https://www.youtube.com/embed/bvWd42AkSuU"
             title="What is Susan Boyle doing now?"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
             className="video_data"
           ></iframe>
         </div>
