@@ -18,14 +18,7 @@ const Home = () => {
           <p className="first">
             Video Editor | Graphic Designer | Visual Creator
           </p>
-          <p className="second">
-            Hi, I'm Bijay Lungeli - a creative and passionate video editor based
-            in Nepal, with over 5+ years of
-          </p>
-          <p className="third">
-            experience crafting visually stunning and emotionally engaing video
-            content
-          </p>
+
           <button className="btn hero_btn">contact</button>
         </div>
       </div>
