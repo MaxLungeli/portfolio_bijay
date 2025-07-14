@@ -4,7 +4,11 @@ export default function List({ heading, data }) {
       <h3>{heading}</h3>
 
       {data.map((cont) => {
-        return <li key={cont.id}>{cont.desc}</li>;
+        return (
+          <li key={cont.id} className="list_item">
+            {cont.desc}
+          </li>
+        );
       })}
     </div>
   );

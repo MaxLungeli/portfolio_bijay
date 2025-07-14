@@ -21,16 +21,16 @@ import nepal_tourpc from "./pictures/nepal_tourpc.jpeg";
 import travelspc from "./pictures/travelspc.jpeg";
 
 const videosData = [
-  { id: 1, src: mr_beast, poster: mr_bistpc },
-  { id: 2, src: ai, poster: aipc },
-  { id: 3, src: clz, poster: clzpc },
+  // { id: 1, src: mr_beast, poster: mr_bistpc },
+  // { id: 2, src: ai, poster: aipc },
   { id: 4, src: book, poster: bookpc },
   { id: 5, src: dashain, poster: dashainpc },
-  { id: 6, src: dtour2, poster: dtour2pc },
   { id: 7, src: dtour3, poster: dtour3pc },
   { id: 8, src: dtours, poster: dtourspc },
+  { id: 6, src: dtour2, poster: dtour2pc },
   { id: 9, src: nepal_tour, poster: nepal_tourpc },
   { id: 10, src: travels, poster: travelspc },
+  { id: 3, src: clz, poster: clzpc },
 ];
 
 export default videosData;
