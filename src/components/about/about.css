@@ -1,16 +1,23 @@
 .about {
   /* background: red; */
   padding-block: 5rem;
-  width: 100%;
+  /* width: 100%; */
+  /* width: 1000px; */
+  /* display: flex; */
+  margin: 0 auto;
+  /* background: red; */
+  /* text-align: center; */
 }
 
 .about_all {
   width: 100%;
-  max-width: 1000px; /* limits max width */
+  /* min-width: 500px; */
+  /* limits max width */
   margin: 0 auto; /* centers horizontally */
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 1.5rem;
   padding: 0.95rem;
   /* border: 5px solid green; */
@@ -22,6 +29,11 @@
 
 .list_item {
   /* margin-bottom: 1rem; */
+}
+
+.about_subsection {
+  margin: 0 auto;
+  width: 40rem;
 }
 
 /* media query */

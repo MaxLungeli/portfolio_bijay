@@ -1,5 +1,12 @@
 .contact {
   background: var(--bg-first);
+  /* background: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  text-align: center;
+  margin-inline: auto;
 }
 
 /* form css */

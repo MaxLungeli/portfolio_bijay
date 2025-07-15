@@ -17,9 +17,9 @@ const Navbar = () => {
         <div className="title">
           <h2>
             {/* Using Link for internal navigation is preferred */}
-            <Link to="/" className="title_link">
+            <a to="#" className="title_link">
               Bijay
-            </Link>
+            </a>
           </h2>
         </div>
 
@@ -37,10 +37,10 @@ const Navbar = () => {
                 return (
                   <li className="nav_li" key={data.id} onClick={toggleMenu}>
                     {" "}
-                    {/* Close menu on item click */}
-                    <Link to={data.href} className="nav_link">
+                    {/* apply Link in future*/}
+                    <a href={data.href} className="nav_link">
                       {data.body}
-                    </Link>
+                    </a>
                   </li>
                 );
               })}

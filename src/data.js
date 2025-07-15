@@ -1,9 +1,9 @@
 export const NavData = [
-  { id: 1, body: "Home", path: "/" },
-  { id: 2, body: "About", path: "/about" },
-  { id: 3, body: "Services", path: "/services" },
-  { id: 4, body: "Projects", path: "/projects" },
-  { id: 5, body: "Contact", path: "/contact" },
+  { id: 1, body: "Home", path: "#" },
+  { id: 2, body: "About", path: "#about" },
+  { id: 3, body: "Services", path: "#" },
+  { id: 4, body: "Projects", path: "#projects" },
+  { id: 5, body: "Contact", path: "#contact" },
 ];
 
 export const AboutWhat = [

@@ -16,7 +16,7 @@
 .section_body {
   display: flex;
   flex-direction: column;
-  align-items: centerp;
+  align-items: center;
   text-align: center;
   margin-bottom: 2rem;
   width: 100%;
@@ -106,8 +106,8 @@
     /* margin: 0 auto; */
     margin-top: 30px;
   }
-  .section_body {
+  /* .section_body {
     display: grid;
     place-items: center;
-  }
+  } */
 }

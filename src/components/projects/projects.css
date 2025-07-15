@@ -5,13 +5,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: centers;
+  max-width: 1100px;
   /* margin-top: -10rem; */
   /* background: blue; */
 }
 
 .vidoes {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   /* height: 3rem; */
   gap: 10px;
   justify-content: center;
@@ -32,17 +33,9 @@
   height: 100%;
 }
 
-@media (max-width: 800px) {
-  .vidoes {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* height: 3rem; */
-  }
-}
-
 @media (max-width: 530px) {
   .vidoes {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 1fr;
   }
 }
