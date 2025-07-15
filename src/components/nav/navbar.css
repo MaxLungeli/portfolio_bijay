@@ -1,7 +1,7 @@
 /* Variables (if not already defined, add them to your root or a separate variables file) */
 :root {
   --first-color: #333; /* Example color */
-  --header-height: 4rem; /* Example height */
+  /* Example height */
   --z-fixed: 100; /* Example z-index */
   --font-semi-bold: 600;
 }
@@ -17,7 +17,7 @@
   position: fixed;
   width: 100%;
   background: transparent;
-  top: 0;
+  /* top: var(--header-height); */
   left: 0;
   z-index: var(--z-fixed);
   transition: background-color 0.4s;

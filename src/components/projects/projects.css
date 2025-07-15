@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: centers;
   /* margin-top: -10rem; */
+  /* background: blue; */
 }
 
 .vidoes {
@@ -23,6 +24,7 @@
   height: 25rem;
   box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
   border: 2px solid green;
+  border-radius: 10px;
 }
 
 .video_data {

@@ -59,6 +59,18 @@ const Projects = () => {
             </div>
           );
         })}
+
+        <div className="video_parent">
+          <iframe
+            src="https://www.youtube.com/embed/gck53fwf2b8"
+            title="Yantra, Mantra, Tantra | Diptee Acharya | Rupeshwor Gaur Das | RETA WORLD ASK ME"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+            className="video_data"
+          ></iframe>
+        </div>
       </div>
     </section>
   );

@@ -8,6 +8,7 @@ import dtour3 from "./dtour3.mp4";
 import dtours from "./dtours.mp4";
 import nepal_tour from "./nepal_tour.mp4";
 import travels from "./travels.mp4";
+import boudha from "./boudha.mp4";
 
 import aipc from "./pictures/aipc.jpeg";
 import bookpc from "./pictures/bookpc.jpeg";
@@ -19,10 +20,9 @@ import dtourspc from "./pictures/dtourspc.jpeg";
 import mr_bistpc from "./pictures/mr_bistpc.jpeg";
 import nepal_tourpc from "./pictures/nepal_tourpc.jpeg";
 import travelspc from "./pictures/travelspc.jpeg";
+import boudhapc from "./pictures/boudhapc.jpeg";
 
 const videosData = [
-  // { id: 1, src: mr_beast, poster: mr_bistpc },
-  // { id: 2, src: ai, poster: aipc },
   { id: 4, src: book, poster: bookpc },
   { id: 5, src: dashain, poster: dashainpc },
   { id: 7, src: dtour3, poster: dtour3pc },

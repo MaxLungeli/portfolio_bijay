@@ -8,7 +8,7 @@ const Home = () => {
   const fbUrl1 = `https://www.facebook.com/61566356101439/videos/1016401157147971/?rdid=g2o6biwCaF1y3mNc#`;
 
   return (
-    <section className="container home" id="home">
+    <section className=" home container" id="home">
       <div className="section_body">
         <div className="home_img">
           <img src="profile.png" alt="profile" className="img_profile" />
@@ -19,7 +19,10 @@ const Home = () => {
             Video Editor | Graphic Designer | Visual Creator
           </p>
 
-          <button className="btn hero_btn">contact</button>
+          <button className="btn hero_btn">
+            {/* <a href="#contact">contact</a> */}
+            Contact
+          </button>
         </div>
       </div>
       <div className="video_list">
@@ -34,17 +37,6 @@ const Home = () => {
           <iframe
             src="https://www.youtube.com/embed/ilEncZbbN20"
             title="सुख र दुःख त लेखेको हुन्छ/ PRABHU RUPESHWOR GAUR DAS"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-            className="youtube_frame"
-          ></iframe>
-        </div>
-        <div className="youtube_vid">
-          <iframe
-            src="https://www.youtube.com/embed/gck53fwf2b8"
-            title="Yantra, Mantra, Tantra | Diptee Acharya | Rupeshwor Gaur Das | RETA WORLD ASK ME"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
