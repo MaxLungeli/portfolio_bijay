@@ -1,3 +1,11 @@
+/* Variables (if not already defined, add them to your root or a separate variables file) */
+:root {
+  --first-color: #333; /* Example color */
+  --header-height: 4rem; /* Example height */
+  --z-fixed: 100; /* Example z-index */
+  --font-semi-bold: 600;
+}
+
 .nav_link,
 .title_link,
 .nav_button {
@@ -13,22 +21,34 @@
   left: 0;
   z-index: var(--z-fixed);
   transition: background-color 0.4s;
-  box-shadow: 10px 5px 5px rebeccapurple;
+  box-shadow: 10px 5px 5px rgba(128, 0, 128, 0.3); /* Softer shadow */
   height: var(--header-height);
   backdrop-filter: blur(10px);
+  display: flex; /* Added for better alignment */
+  align-items: center; /* Added for better alignment */
 }
 
 .header_main {
-  position: relative;
-  top: -20%;
+  width: 100%; /* Take full width */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  position: static; /* Remove relative positioning */
+  top: unset; /* Remove top adjustment */
+}
+
+.title h2 {
+  margin: 0; /* Remove default margin */
+}
+
+.title_link {
+  font-size: 1.5rem; /* Adjust as needed */
+  font-weight: var(--font-semi-bold);
+  text-decoration: none;
 }
 
 .nav {
-  position: relative;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
@@ -41,16 +61,31 @@
   align-items: center;
   justify-content: space-between;
   gap: 0.89rem;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  list-style: none; /* Remove bullet points */
 }
 
 .nav_button {
   color: rgb(232, 220, 220);
   font-weight: var(--font-semi-bold);
+  padding: 0.5rem 1rem; /* Add padding for button */
+  border: none;
+  background-color: rebeccapurple; /* Example button color */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav_button:hover {
+  background-color: rgb(100, 0, 100);
 }
 
 .nav_link {
   position: relative;
   display: inline-block;
+  text-decoration: none; /* Remove underline from links */
+  padding: 0.5rem 0; /* Add some vertical padding */
 }
 
 .nav_link::after {
@@ -69,4 +104,94 @@
 }
 .nav_link:hover {
   text-transform: uppercase;
+}
+
+/* --- Hamburger Icon Styles --- */
+.hamburger {
+  display: none; /* Hidden by default on large screens */
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  z-index: var(--z-fixed) + 1; /* Ensure it's above the nav */
+}
+
+.line {
+  width: 100%;
+  height: 3px;
+  background-color: var(--first-color);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hamburger animation for opening */
+.hamburger .line1.open {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger .line2.open {
+  opacity: 0;
+}
+
+.hamburger .line3.open {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* --- Responsive Navigation Styles --- */
+@media screen and (max-width: 600px) {
+  .hamburger {
+    display: flex; /* Show hamburger on small screens */
+  }
+
+  .nav {
+    position: fixed;
+    top: var(--header-height); /* Position below header */
+    left: 0;
+    width: 100%;
+    /* height: calc(100vh - var(--header-height));  */
+    height: fit-content;
+    background-color: rgba(
+      255,
+      255,
+      255,
+      0.95
+    ); /* Semi-transparent background */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align items to the top */
+    padding-top: 2rem; /* Add some padding from the top */
+    transform: translateX(100%); /* Start off-screen to the right */
+    transition: transform 0.4s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    gap: 1rem; /* Adjust gap for stacked items */
+  }
+
+  .nav_open {
+    transform: translateX(0); /* Slide in when open */
+  }
+
+  .nav_items {
+    width: 100%;
+    text-align: center; /* Center align nav items */
+  }
+
+  .nav_list {
+    flex-direction: column; /* Stack list items vertically */
+    gap: 1.5rem; /* Space out list items */
+  }
+
+  .nav_li {
+    width: 100%; /* Take full width */
+  }
+
+  .nav_link {
+    font-size: 1.2rem; /* Larger font size for mobile */
+    display: block; /* Make links block level for better click area */
+    padding: 1rem 0; /* Increase padding */
+  }
+
+  .nav_button {
+    margin-top: 1rem; /* Space from nav items */
+    width: 80%; /* Adjust button width */
+    max-width: 200px; /* Limit button width */
+  }
 }

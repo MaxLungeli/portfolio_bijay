@@ -47,30 +47,7 @@ const Projects = () => {
             </div>
           );
         })}
-        {/* <FacebookProvider appId="YOUR_FACEBOOK_APP_ID">
-            <EmbeddedVideo href={data1} />
-          </FacebookProvider>
-        </div>
-        <div className="video_parent">
-          <FacebookProvider appId="YOUR_FACEBOOK_APP_ID">
-            <EmbeddedVideo href={data2} />
-          </FacebookProvider>
-        </div>
-        <div className="video_parent">
-          <FacebookProvider appId="YOUR_FACEBOOK_APP_ID">
-            <EmbeddedVideo href={data3} />
-          </FacebookProvider>
-        </div>
-        <div className="video_parent">
-          <FacebookProvider appId="YOUR_FACEBOOK_APP_ID">
-            <EmbeddedVideo href={data4} />
-          </FacebookProvider>
-        </div>
-        <div className="video_parent">
-          <FacebookProvider appId="YOUR_FACEBOOK_APP_ID">
-            <EmbeddedVideo href={data5} />
-          </FacebookProvider>
-        </div> */}
+
         {videosData.map((val) => {
           return (
             <div className="video_parent" key={val.id}>
