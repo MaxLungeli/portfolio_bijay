@@ -37,3 +37,34 @@ export const WorkData = [
   { id: 5, desc: "Creative Input & Attention to Detail" },
   { id: 6, desc: "100% Client Satisfaction" },
 ];
+
+export const FbVidData = [
+  {
+    id: 1,
+    data: "https://www.facebook.com/61566356101439/videos/497868240011360/",
+  },
+  {
+    id: 2,
+    data: "https://www.facebook.com/61566356101439/videos/713019704655432/?rdid=5cJM7SeeClSLq24c#",
+  },
+  {
+    id: 3,
+    data: "https://www.facebook.com/61566356101439/videos/1246383060600344/?rdid=h0OyBsBzTdx7inGZ#",
+  },
+  {
+    id: 4,
+    data: "https://www.facebook.com/61566356101439/videos/1413429243207832/?rdid=hpeqOE2fNZf5s6H9#",
+  },
+  {
+    id: 5,
+    data: "https://www.facebook.com/61566356101439/videos/761856239711672/",
+  },
+];
+const data1 = "https://www.facebook.com/61566356101439/videos/497868240011360/";
+const data2 =
+  "https://www.facebook.com/61566356101439/videos/713019704655432/?rdid=5cJM7SeeClSLq24c#";
+const data3 =
+  "https://www.facebook.com/61566356101439/videos/1246383060600344/?rdid=h0OyBsBzTdx7inGZ#";
+const data4 =
+  "https://www.facebook.com/61566356101439/videos/1413429243207832/?rdid=hpeqOE2fNZf5s6H9#";
+const data5 = "https://www.facebook.com/61566356101439/videos/761856239711672/";

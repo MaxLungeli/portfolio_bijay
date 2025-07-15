@@ -4,20 +4,9 @@ import Vidoes from "../utility/Vidoes";
 import { FacebookProvider, EmbeddedVideo } from "react-facebook";
 
 import "./projects.css";
+import { FbVidData } from "../../data";
 
 const Projects = () => {
-  // console.log(videosData);
-  // const fbUrl1 = `https://www.facebook.com/61566356101439/videos/1016401157147971/?rdid=g2o6biwCaF1y3mNc#`;
-  const data1 =
-    "https://www.facebook.com/61566356101439/videos/497868240011360/";
-  const data2 =
-    "https://www.facebook.com/61566356101439/videos/713019704655432/?rdid=5cJM7SeeClSLq24c#";
-  const data3 =
-    "https://www.facebook.com/61566356101439/videos/1246383060600344/?rdid=h0OyBsBzTdx7inGZ#";
-  const data4 =
-    "https://www.facebook.com/61566356101439/videos/1413429243207832/?rdid=hpeqOE2fNZf5s6H9#";
-  const data5 =
-    "https://www.facebook.com/61566356101439/videos/761856239711672/";
   return (
     <section className="projects container" id="projects">
       <div className="project_heading">
@@ -49,8 +38,16 @@ const Projects = () => {
           ></iframe>
         </div>
 
-        <div className="video_parent">
-          <FacebookProvider appId="YOUR_FACEBOOK_APP_ID">
+        {FbVidData.map((val) => {
+          return (
+            <div className="video_parent" key={val.id}>
+              <FacebookProvider appId="YOUR_FACEBOOK_APP_ID">
+                <EmbeddedVideo href={val.data} />
+              </FacebookProvider>
+            </div>
+          );
+        })}
+        {/* <FacebookProvider appId="YOUR_FACEBOOK_APP_ID">
             <EmbeddedVideo href={data1} />
           </FacebookProvider>
         </div>
@@ -73,7 +70,7 @@ const Projects = () => {
           <FacebookProvider appId="YOUR_FACEBOOK_APP_ID">
             <EmbeddedVideo href={data5} />
           </FacebookProvider>
-        </div>
+        </div> */}
         {videosData.map((val) => {
           return (
             <div className="video_parent" key={val.id}>
