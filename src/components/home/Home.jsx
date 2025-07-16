@@ -20,20 +20,22 @@ const Home = () => {
           </p>
 
           <button className="btn hero_btn">
-            {/* <a href="#contact">contact</a> */}
-            Contact
+            <a href="#contact" className="contact_li">
+              Contact
+            </a>
+            {/* Contact */}
           </button>
         </div>
       </div>
       <div className="video_list">
         {HomeDataVid.map((data) => {
           return (
-            <div key={data.id} className="home_video">
+            <div key={data.id} className="home_video vidH">
               <Vidoes src={data.src} poster={data.poster} />
             </div>
           );
         })}
-        <div className="youtube_vid">
+        <div className="youtube_vid vidH">
           <iframe
             src="https://www.youtube.com/embed/ilEncZbbN20"
             title="सुख र दुःख त लेखेको हुन्छ/ PRABHU RUPESHWOR GAUR DAS"
@@ -46,7 +48,7 @@ const Home = () => {
         </div>
 
         {/* facebook url */}
-        <div className="youtube_vid">
+        <div className="youtube_vid vidH">
           <FacebookProvider appId="YOUR_FACEBOOK_APP_ID">
             <EmbeddedVideo href={fbUrl1} />
           </FacebookProvider>

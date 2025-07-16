@@ -38,7 +38,7 @@ const Navbar = () => {
                   <li className="nav_li" key={data.id} onClick={toggleMenu}>
                     {" "}
                     {/* apply Link in future*/}
-                    <a href={data.href} className="nav_link">
+                    <a href={data.path} className="nav_link">
                       {data.body}
                     </a>
                   </li>
