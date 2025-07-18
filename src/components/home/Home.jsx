@@ -35,7 +35,7 @@ const Home = () => {
             </div>
           );
         })}
-        <div className="youtube_vid vidH">
+        {/* <div className="youtube_vid vidH">
           <iframe
             src="https://www.youtube.com/embed/ilEncZbbN20"
             title="सुख र दुःख त लेखेको हुन्छ/ PRABHU RUPESHWOR GAUR DAS"
@@ -45,7 +45,7 @@ const Home = () => {
             allowFullScreen
             className="youtube_frame"
           ></iframe>
-        </div>
+        </div> */}
 
         {/* facebook url */}
         <div className="youtube_vid vidH">
