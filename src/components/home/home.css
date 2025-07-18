@@ -1,16 +1,15 @@
 .home {
   min-height: calc(100vh - var(---header-height));
-  /* min-height: 100vh; */
   display: flex;
-
-  padding: 20px;
-  width: 1000px;
+  padding-top: calc(var(--header-height) + 2px);
+  /* padding-top: var(---header-height); */
+  width: 100%;
+  max-width: 62.5rem;
   margin-inline: auto;
   align-items: center;
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  /* max-width: fit-content; */
 }
 
 .section_body {
@@ -20,6 +19,8 @@
   text-align: center;
   margin-bottom: 2rem;
   width: 100%;
+  max-width: 70rem;
+  margin-inline: auto;
 }
 
 .section_title {
@@ -42,8 +43,7 @@
 
 /* img */
 .home_img {
-  /* display: block; */
-  padding-top: 40px;
+  padding-top: 20px;
   width: 8rem;
   height: 8rem;
   background: var(--bg-second);
@@ -53,7 +53,6 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  /* padding-bottom: -10px; */
 }
 
 .img_profile {
@@ -65,53 +64,22 @@
 /* videos */
 .video_list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   /* grid-template-columns: repeat(3, minmax(fit-content, )); */
-  gap: 0.98rem;
-  /* place-items: center; */
+  gap: 15px;
+  width: 90%;
+  max-width: 65rem;
   margin: 0 auto;
   margin-top: 30px;
+  padding: 10px;
 }
-
-.home_video {
-  min-width: fit-content;
-  /* margin: 5px; */
-  height: 20rem;
-  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
-  border: 2px solid green;
-  border-radius: 10px;
-  background: #443939;
-}
-
-/* youtube videos */
-.youtube_vid {
-  height: 20rem;
-  width: 30rem;
-}
-
-.youtube_frame {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-/* .hero_btn a {
-  text-decoration: inherit;
-} */
 
 /* media query */
 @media (max-width: 600px) {
   .video_list {
     display: grid;
     grid-template-columns: 1fr;
-    /* grid-template-columns: repeat(3, minmax(fit-content, )); */
     gap: 1rem;
-    /* place-items: center; */
-    /* margin: 0 auto; */
     margin-top: 30px;
   }
-  /* .section_body {
-    display: grid;
-    place-items: center;
-  } */
 }

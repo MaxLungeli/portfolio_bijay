@@ -31,6 +31,10 @@
   /* margin-bottom: 1rem; */
 }
 
+.about_sub {
+  max-width: 40rem;
+}
+
 .about_subsection {
   margin: 0 auto;
   width: 40rem;

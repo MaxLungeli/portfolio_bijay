@@ -26,13 +26,6 @@
   --z-fixed: 100;
 }
 
-/* responsive typography */
-@media screen and (min-width: 900px) {
-  :root {
-    --font-size: 1.5rem;
-  }
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -41,6 +34,12 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body,
@@ -87,16 +86,19 @@ video {
   /* background: black; */
 }
 
+/* css video */
+.centered-video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* reusable css classes */
 .container {
-  max-width: 1120px;
-  /* max-width: 100vw; */
-  /* margin-left: 2rem; */
-  /* margin-right: 2rem; */
+  max-width: 70rem;
+  width: 90%;
   margin-inline: auto;
-  width: 1000px;
-
-  /* margin: 0 auto; */
+  padding-inline: 1rem;
 }
 
 .grid {
@@ -113,6 +115,32 @@ video {
   border-radius: 10px;
 }
 
+/* videos center */
+.video_container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: black;
+  border-radius: 10px;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid green;
+}
+
+.video_container iframe,
+.video_container video,
+.vidoe_container .face_vid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  object-fit: cover;
+  object-position: center;
+}
+
 /* hover effect in video box */
 .vidH:hover {
   transform: translateY(-5px) scale(1.02);
@@ -122,4 +150,11 @@ video {
 
 .vidH:hover {
   border-color: #6b35e0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding-inline: 0.5rem;
+  }
 }

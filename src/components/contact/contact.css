@@ -4,7 +4,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1000px;
+  /* width: 1000px; */
+  width: 100%;
+  max-width: 62.5rem;
   text-align: center;
   margin-inline: auto;
 }

@@ -30,8 +30,12 @@ const Home = () => {
       <div className="video_list">
         {HomeDataVid.map((data) => {
           return (
-            <div key={data.id} className="home_video vidH">
-              <Vidoes src={data.src} poster={data.poster} />
+            <div key={data.id} className="video_container">
+              <Vidoes
+                src={data.src}
+                poster={data.poster}
+                className="video_elem"
+              />
             </div>
           );
         })}
@@ -48,8 +52,8 @@ const Home = () => {
         </div> */}
 
         {/* facebook url */}
-        <div className="youtube_vid vidH">
-          <FacebookProvider appId="YOUR_FACEBOOK_APP_ID">
+        <div className="video_container">
+          <FacebookProvider appId="YOUR_FACEBOOK_APP_ID" className="face_vid">
             <EmbeddedVideo href={fbUrl1} />
           </FacebookProvider>
         </div>
