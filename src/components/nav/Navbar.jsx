@@ -46,9 +46,9 @@ const Navbar = () => {
               })}
             </ul>
           </div>
-          <div>
+          {/* <div>
             <button className="btn nav_button">book online</button>
-          </div>
+          </div> */}
         </nav>
       </div>
     </header>

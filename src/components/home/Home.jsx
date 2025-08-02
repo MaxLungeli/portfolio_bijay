@@ -1,8 +1,8 @@
 import { HomeDataVid } from "../../assets/other/data";
 import Vidoes from "../utility/Vidoes";
 import "./home.css";
-// import ReactPlayer from "react-player";
-import { FacebookProvider, EmbeddedVideo } from "react-facebook";
+import { youTubeData } from "../../assets/other/data";
+import YouTube from "../utility/YouTube";
 
 const Home = () => {
   const fbUrl1 = `https://www.facebook.com/61566356101439/videos/1016401157147971/?rdid=g2o6biwCaF1y3mNc#`;
@@ -23,11 +23,22 @@ const Home = () => {
             <a href="#contact" className="contact_li">
               Contact
             </a>
-            {/* Contact */}
           </button>
         </div>
       </div>
       <div className="video_list">
+        {youTubeData.map((data) => {
+          return (
+            <div className="video_container">
+              <YouTube
+                key={data.id}
+                src={data.src}
+                title={data.title}
+                className="video_elem"
+              ></YouTube>
+            </div>
+          );
+        })}
         {HomeDataVid.map((data) => {
           return (
             <div key={data.id} className="video_container">
@@ -39,24 +50,14 @@ const Home = () => {
             </div>
           );
         })}
-        {/* <div className="youtube_vid vidH">
-          <iframe
-            src="https://www.youtube.com/embed/ilEncZbbN20"
-            title="सुख र दुःख त लेखेको हुन्छ/ PRABHU RUPESHWOR GAUR DAS"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-            className="youtube_frame"
-          ></iframe>
-        </div> */}
+        <YouTube />
 
         {/* facebook url */}
-        <div className="video_container">
+        {/* <div className="video_container">
           <FacebookProvider appId="YOUR_FACEBOOK_APP_ID" className="face_vid">
             <EmbeddedVideo href={fbUrl1} />
           </FacebookProvider>
-        </div>
+        </div> */}
       </div>
     </section>
   );

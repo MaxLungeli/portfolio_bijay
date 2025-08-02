@@ -9,5 +9,20 @@ import boudhapc from "../videos/pictures/boudhapc.jpeg";
 export const HomeDataVid = [
   { id: 1, src: boudha, poster: boudhapc },
   { id: 2, src: ai, poster: ai_pc },
-  { id: 3, src: mr_beast, poster: mr_beast_pc },
+  // { id: 3, src: mr_beast, poster: mr_beast_pc },
+];
+
+export const youTubeData = [
+  {
+    id: 1,
+    src: "https://www.youtube.com/embed/QkxrdfdP0Kw",
+    title:
+      "⁠Luv Kush Ki Janmabhoomi: Ramayan Ka Jeevit Itihaas | By Akshat Gupta | हिंदी में",
+  },
+  {
+    id: 2,
+    src: "https://www.youtube.com/embed/zsb5dl1isgI",
+    title:
+      "Janiye kya hota hai &#39;Panchakshari Mantra&#39; #akshatguptapodcast #akshatgupta #lordshiva #shravanmaas",
+  },
 ];
