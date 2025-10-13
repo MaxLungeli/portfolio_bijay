@@ -25,6 +25,15 @@
   padding: 10px;
 }
 
+/* added last */
+.video-thumbnail img {
+  width: 100%;
+  height: 180px; /* Set your desired height */
+  object-fit: cover; /* Ensures the image fills the box and is cropped if needed */
+  border-radius: 8px; /* Optional: rounded corners */
+  display: block;
+}
+
 @media (max-width: 530px) {
   .vidoes {
     /* display: grid; */
