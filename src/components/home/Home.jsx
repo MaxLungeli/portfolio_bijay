@@ -8,7 +8,7 @@ const Home = () => {
   const fbUrl1 = `https://www.facebook.com/61566356101439/videos/1016401157147971/?rdid=g2o6biwCaF1y3mNc#`;
 
   return (
-    <section className=" home container" id="home">
+    <section className="home container" id="home">
       <div className="section_body">
         <div className="home_img">
           <img src="profile.png" alt="profile" className="img_profile" />

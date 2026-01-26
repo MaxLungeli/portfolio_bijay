@@ -2,8 +2,8 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="site-footer container">
-      <p>&copy; 2025 Bijay Lungeli</p>
+    <footer className="site-footer container" id="footer">
+      <p>Location | Al Mansoura, Qatar</p>
       <p>Video Editor | Graphic Designer</p>
       <p>
         Connect with me on
@@ -15,7 +15,7 @@ const Footer = () => {
         </a>{" "}
         |
         <a href="https://web.whatsapp.com/" target="_blank">
-          WhatsApp (+977-9819924701)
+          WhatsApp (97-471811651)
         </a>
         |{" "}
         <a href="" target="_blank">

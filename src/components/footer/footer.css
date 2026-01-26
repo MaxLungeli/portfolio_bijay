@@ -9,6 +9,7 @@
 .site-footer a {
   color: #00acee; /* Light blue for links */
   text-decoration: none;
+  margin: 0px 4px;
 }
 
 .site-footer a:hover {

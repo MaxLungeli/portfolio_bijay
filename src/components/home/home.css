@@ -74,6 +74,39 @@
   padding: 10px;
 }
 
+/* animation keyframes */
+/* @keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */
+
+/* @keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */
+
+/* animation classes */
+/* .slide-in-left {
+  animation: slideInLeft 1.5s ease-out forwards;
+} */
+
+/* .slide-in-right {
+  animation: slideInRight 1.5s ease-out forwards;
+} */
+
 /* media query */
 @media (max-width: 600px) {
   .video_list {

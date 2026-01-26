@@ -4,7 +4,9 @@ import ai_pc from "../videos/pictures/aipc.jpeg";
 
 import boudha from "../videos/boudha.mp4";
 import boudhapc from "../videos/pictures/boudhapc.jpeg";
+import my_car from "../videos/pictures/my_car.JPG";
 import amazon_vid from "../videos/amazon_vid.mp4";
+import mymotor from "../videos/MyMotor.mp4";
 import amazon_poster from "../videos/pictures/amazon_poster.jpeg";
 
 import advertise from "../videos/pictures/gdata/1_advertisemotor.jpeg";
@@ -19,7 +21,8 @@ import tes from "../videos/pictures/gdata/8_tes.jpeg";
 export const HomeDataVid = [
   { id: 3, src: amazon_vid, poster: amazon_poster },
   { id: 1, src: boudha, poster: boudhapc },
-  { id: 2, src: ai, poster: ai_pc },
+  { id: 4, src: mymotor, poster: my_car },
+  // { id: 2, src: ai, poster: ai_pc },
 ];
 
 export const youTubeData = [
